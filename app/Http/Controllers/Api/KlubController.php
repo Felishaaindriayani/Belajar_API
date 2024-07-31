@@ -118,7 +118,7 @@ class KlubController extends Controller
                 'errors' => $e->getMessage(),
         ], 500);
     }
-}
+} 
 
    
     public function destroy(string $id)
